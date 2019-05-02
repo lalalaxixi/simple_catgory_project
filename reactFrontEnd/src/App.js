@@ -138,7 +138,7 @@ class App extends Component {
               const { id, name, catgoryId } = inventory;
               return (
                 <ul class="w3-ul">
-                  <li>{id} {name}
+                  <li>{id} {name} &nbsp; catgory_id:{catgoryId}
                     <p>
                     <button class="w3-button w3-red" onClick={()=>this.handleDeleteClick(inventory)}>delete</button>
                     </p>
@@ -148,7 +148,7 @@ class App extends Component {
               );
             })
           ) : (
-            <p>Loading...</p>
+            <p>Please select item from catgory selector...</p>
           )}
         </div>
         {/*subcatgory selector */}
@@ -164,7 +164,7 @@ class App extends Component {
               );
             })
           ) : (
-            <p>Loading...</p>
+            <p>Please select SubCatgories from catgory selector...</p>
           )}
         </div>
         </div>
