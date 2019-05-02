@@ -20,6 +20,8 @@ mysql> create database db_example; -- Create the new database<br>
 mysql> create user 'springuser'@'%' identified by 'ThePassword'; -- Creates the user<br>
 mysql> grant all on db_example.* to 'springuser'@'%'; -- Gives all the privileges to the new user on the newly created database<br>
 
+There is a folder in catgoryAPP called sql, which contains sql queries to create the table, and insert some test data into the table.
+
 ### start backend:
 cd to 'catgoryAPP' directory type  `./mvnw spring-boot:run` to run the backend<br>
 back end will be running at [http://localhost:8080](http://localhost:8080)
