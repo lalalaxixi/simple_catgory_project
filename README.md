@@ -1,5 +1,8 @@
 # simple_catgory_project
-this project is a simple App which allows user to select sub catgory from selected catgory and also select items under selected catgory and any subcagtory thats under selected catgory
+this project is a simple App which allows user to select sub catgory from selected catgory and also select items under selected catgory and any subcagtory thats under selected catgory or deleted a selected item from catgory. Ingeneral this App provide 3 functions
+1. select sub catgories of given catgory
+2. select items under a catgory and also all items in the subcatgory of current catgory
+3. delete an item
 
 ## tech used
 ### backend
